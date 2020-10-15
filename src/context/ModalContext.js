@@ -32,4 +32,4 @@ const ModalProvider = (props) => {
     );
 }
  
-export default ModalProvider;props
+export default ModalProvider;
