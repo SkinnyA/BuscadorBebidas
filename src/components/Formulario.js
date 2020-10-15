@@ -26,6 +26,12 @@ const Formulario = () => {
                         name="categoria"
                     >
                         <option value="">-- Selecciona Categoria --</option>
+                        {categorias.map(categoria =>(
+                            <option 
+                                key={categoria.strDrink}
+                                value={categoria.strDrink}
+                            >{categoria.strDrink}</option>
+                        ))}
                         
                     </select>
                 </div>

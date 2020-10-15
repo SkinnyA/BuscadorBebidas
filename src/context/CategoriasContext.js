@@ -23,7 +23,7 @@ const CategoriasProvider = (props) => {
     return (
         <CategoriasContext.Provider
             value={{
-                // Aqui va a estar disponible categorias para todos los componentes
+                // Aqui va a estar disponible categoria para todos los componentes
                 categorias
             }}
         >
